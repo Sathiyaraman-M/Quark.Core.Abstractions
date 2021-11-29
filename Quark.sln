@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F1C281D-1DB0-47E2-ACBC-7447CA7C75D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quark.Core.Abstractions", "Quark.Core.Abstractions\Quark.Core.Abstractions.csproj", "{CD8F5B38-033C-4A61-A834-7925425797BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quark.Core", "Quark.Core\Quark.Core.csproj", "{9B7219AF-4158-42F3-88D6-8354F6521964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD8F5B38-033C-4A61-A834-7925425797BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8F5B38-033C-4A61-A834-7925425797BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8F5B38-033C-4A61-A834-7925425797BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8F5B38-033C-4A61-A834-7925425797BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7219AF-4158-42F3-88D6-8354F6521964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7219AF-4158-42F3-88D6-8354F6521964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7219AF-4158-42F3-88D6-8354F6521964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7219AF-4158-42F3-88D6-8354F6521964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD8F5B38-033C-4A61-A834-7925425797BF} = {3F1C281D-1DB0-47E2-ACBC-7447CA7C75D5}
+		{9B7219AF-4158-42F3-88D6-8354F6521964} = {3F1C281D-1DB0-47E2-ACBC-7447CA7C75D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83503C7B-B51A-4742-A4E1-5AC82820AC1D}
+	EndGlobalSection
+EndGlobal
