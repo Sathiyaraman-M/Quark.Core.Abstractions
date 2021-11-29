@@ -1,4 +1,4 @@
-﻿using Quark.Core.Responses.Identity;
+﻿using Quark.Core.Abstractions.Responses.Identity;
 
 namespace Quark.Core.Abstractions.Requests.Identity;
 
